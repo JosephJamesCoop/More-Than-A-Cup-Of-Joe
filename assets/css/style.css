@@ -49,3 +49,42 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
 }
+.family {
+    text-align: center;
+    background-color: var(--secondary-color);
+    width: auto;
+    height: 410px;
+    padding: 5px;  
+}
+.family img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+/* About me Sectiuon */
+.bio {
+    background-color: var(--primary-color);
+    color: antiquewhite;
+}
+.bio h2 {
+    font-size: 68px;
+    text-align: center;
+}
+.bio h3 {
+    font-size: 35px;
+}
+.bio p {
+    font-size: 17px;
+
+}
+.my-info {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.info {
+    margin: 20px;
+    flex: 1;
+}
