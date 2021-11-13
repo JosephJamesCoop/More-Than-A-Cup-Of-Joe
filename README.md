@@ -30,4 +30,4 @@ none reported.
 # Preview of Appliaction Loaded Properly
 
 
-![alt text](./assets/images/wrun-buddy-page.png)
+![alt text](./assets/images/cup-of-joe.png)
