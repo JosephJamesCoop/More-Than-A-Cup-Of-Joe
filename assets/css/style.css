@@ -119,13 +119,21 @@ header nav ul {
     margin: 50px;
     flex: 1;
 }
-.work ul {
+.images {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     list-style: none;
 }
-.work ul li a {
+.run-buddy a img {
+    height: 600px;
+    width: 800px;
+    
+}
+.git-hub a img {
+    height: 200px;
+}
+.images a {
     text-decoration: none;
     color: var(--color-3);
     font-weight: bolder;
@@ -137,7 +145,7 @@ header nav ul {
     width: 100%;
     text-align: left;
 }
-.work ul li a:hover {
+.images a:hover {
     color: var(--Color-3);
     text-decoration: underline;
 }
@@ -229,6 +237,10 @@ footer {
     }
     .my-info {
         flex: 2 100%;
+    }
+    .run-buddy a img {
+        height: 400px;
+        width: 600px;
 }
 @media screen and (max-width: 575px) {
     h2 {
@@ -246,4 +258,17 @@ footer {
     .foot {
         margin: 10px;
         flex: 2 100%;
+    }
+    .run-buddy a img {
+        height: 250px;
+        width: 300px;
+    }
+    .cup-of-joe a img {
+        height: 150px;
+        width: auto;
+    }
+    .git-hub a img {
+        height: 150px;
+        width: auto;
+    }
 }
