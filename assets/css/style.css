@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: rgb(107, 64, 64);
-    --secondary-color: rgb(150, 118, 118);
+    --Color-1: rgb(107, 64, 64);
+    --color-2: rgb(150, 118, 118);
+    --color-3: rgb(236, 236, 230);
 }
 body {
-    color: var(--secondary-color);
+    color: var(--color-2);
     font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
@@ -17,20 +18,23 @@ h2 {
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--Color-1);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 
 }
 header h1 {
     font-size: 60px;
-    color: antiquewhite;
+    color: var(--color-3);
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 header a {
     text-decoration: none;
-    color: antiquewhite;
+    color: var(--color-3);
     font-size: 24px;
     border-top: 20px;
     text-shadow: 0, 0, 10px rgba(0, 0, 0, 0.5);
@@ -38,8 +42,8 @@ header a {
     margin-left: -10px;
 }
 header a:hover {
-    color: var(--primary-color);
-    background-color: antiquewhite;
+    color: var(--Color-1);
+    background-color: var(--color-3);
     border-radius:  50%;
 }
 header nav {
@@ -57,7 +61,7 @@ header nav ul {
 }
 .family {
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--color-2);
     width: auto;
     height: 410px;
     padding: 5px;  
@@ -69,8 +73,8 @@ header nav ul {
 
 /* About me Sectiuon */
 .bio {
-    background-color: var(--primary-color);
-    color: antiquewhite;
+    background-color: var(--Color-1);
+    color: var(--color-3);
 }
 .bio h3 {
     font-size: 35px;
@@ -92,12 +96,12 @@ header nav ul {
 }
 /* My Work section */
 .work {
-    background-color: var(--secondary-color);
-    color: antiquewhite;
+    background-color: var(--color-2);
+    color: var(--color-3);
 }
 .work h3 {
     font-size: 35px;
-    color: var(--primary-color);
+    color: var(--Color-1);
 }
 .work h4 {
     font-weight: normal;
@@ -123,7 +127,7 @@ header nav ul {
 }
 .work ul li a {
     text-decoration: none;
-    color: antiquewhite;
+    color: var(--color-3);
     font-weight: bolder;
     font-size: 30px;
     margin-top: 20px;
@@ -133,12 +137,13 @@ header nav ul {
     width: 100%;
 }
 .work ul li a:hover {
-    color: var(--primary-color);
+    color: var(--Color-1);
+    text-decoration: underline;
 }
 /* Contact Me Section */
 .contact {
-    background-color: var(--primary-color);
-    color: antiquewhite;
+    background-color: var(--Color-1);
+    color: var(--color-3);
 }
 .contact h3 {
     font-weight: bolder;
@@ -148,10 +153,10 @@ header nav ul {
 }
 .connect a {
     text-decoration: none;
-    color: antiquewhite;
+    color: var(--color-3);
 }
 .connect a:hover {
-    color: var(--secondary-color);
+    color: var(--color-2);
 }
 .connect {
     display: flex;
@@ -161,6 +166,27 @@ header nav ul {
     text-align: center;
 }
 .connected {
-    margin: 50px 10px;
+    margin: 50px 10px 10px 10px;
     flex: 1;
+}
+/* Footer Section */
+footer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: var(--Color-1);
+}
+.foot {
+    margin: 10px;
+    flex: 1;
+}
+.foot a {
+    text-decoration: none; 
+    color: var(--color-3);
+}
+.foot a:hover {
+    color: var(--color-1);
+    background-color: var(--color-3);
 }
