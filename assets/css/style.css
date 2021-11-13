@@ -77,14 +77,58 @@ header nav ul {
     font-size: 17px;
 
 }
-.my-info {
+.info {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
 }
-.info {
+.my-info {
     margin: 20px;
     flex: 1;
+}
+.work {
+    background-color: var(--secondary-color);
+    color: antiquewhite;
+}
+.work h2 {
+    font-size: 68px;
+    text-align: center;
+}
+.work h3 {
+    font-size: 35px;
+    color: var(--primary-color);
+}
+.work h4 {
+    font-weight: normal;
+    margin-top: 20px;
+}
+.projects {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.project {
+    margin: 50px;
+    flex: 1;
+}
+.work ul {
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+}
+.work ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
