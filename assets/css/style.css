@@ -15,7 +15,9 @@ body {
 h2 {
     font-size: 68px;
     text-align: center;
+    padding-top: 60px;
 }
+
 
 header {
     background-color: var(--color-1);
@@ -260,6 +262,7 @@ footer {
 @media screen and (max-width: 575px) {
     h2 {
         font-size: 50px;
+        padding-top: 60px;
     }
     .contact h3 {
         font-weight: normal;
