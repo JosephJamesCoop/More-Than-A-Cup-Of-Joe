@@ -16,7 +16,7 @@ Web page used as a resume for Joseph Cooper to broadcast skills and give demonst
 
 # Setup Requirements
 
-click on the link  https://josephjamescoop.github.io/about-me/
+click on the link  https://josephjamescoop.github.io/More-Than-A-Cup-Of-Joe/
 
 alternatively you can follow these steps/
 
