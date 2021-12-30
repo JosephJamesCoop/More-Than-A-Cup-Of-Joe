@@ -20,7 +20,7 @@ click on the link  https://josephjamescoop.github.io/More-Than-A-Cup-Of-Joe/
 
 alternatively you can follow these steps/
 
-go to https://github.com/JosephJamesCoop/about-me and clone the repository
+go to https://github.com/JosephJamesCoop/More-Than-A-Cup-Of-Joe and clone the repository
 open file titled about-me
 open index.html in default browser
 
