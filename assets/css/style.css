@@ -19,7 +19,7 @@ h2 {
 }
 
 
-header {
+.header {
     background-color: var(--color-1);
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@ header h1 {
     color: var(--color-3);
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-header a {
+.links {
     text-decoration: none;
     color: var(--color-3);
     font-size: 24px;
@@ -43,7 +43,7 @@ header a {
     margin-right: 20px;
     margin-left: -10px;
 }
-header a:hover {
+.links:hover {
     color: var(--color-1);
     background-color: var(--color-3);
     border-radius:  50%;
@@ -216,6 +216,36 @@ footer {
     color: var(--color-1);
     background-color: var(--color-3);
 }
+.resume {
+    height: 1000px;
+    background-color: var(--color-2) ;
+}
+.iframe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+    height: 1000px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head {
+    text-decoration: none;
+    color: var(--color-3);
+    font-size: 60px;
+    background-color: var(--color-1);
+}
+.center {
+    text-align: center;
+    background-color: var(--color-1);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
 /* sizing for other devices*/
 @media screen and (max-width: 980px) {
     .project {
@@ -259,11 +289,17 @@ footer {
         height: 400px;
         width: 600px;
 }
+.iframe {
+    width: 700px;
+    height: 800px;
+}
+}
 @media screen and (max-width: 575px) {
     h2 {
         font-size: 50px;
         padding-top: 60px;
     }
+    
     .contact h3 {
         font-weight: normal;
         font-size: 15px;
@@ -288,5 +324,9 @@ footer {
     .git-hub a img {
         height: 150px;
         width: auto;
+    }
+    .iframe {
+        width: 375px;
+        height: 1000px;
     }
 }
