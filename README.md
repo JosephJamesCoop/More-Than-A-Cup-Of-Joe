@@ -16,11 +16,11 @@ Web page used as a resume for Joseph Cooper to broadcast skills and give demonst
 
 # Setup Requirements
 
-click on the link  https://josephjamescoop.github.io/More-Than-A-Cup-Of-Joe/
+click on the link [More Than a Cup of Joe](https://josephjamescoop.github.io/More-Than-A-Cup-Of-Joe)
 
 alternatively you can follow these steps/
 
-go to https://github.com/JosephJamesCoop/More-Than-A-Cup-Of-Joe and clone the repository
+go to [JosephJamesCoop](https://github.com/JosephJamesCoop/More-Than-A-Cup-Of-Joe) and clone the repository
 open file titled about-me
 open index.html in default browser
 

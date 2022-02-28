@@ -1,332 +1,329 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-    --color-1: rgb(107, 64, 64);
-    --color-2: rgb(150, 118, 118);
-    --color-3: rgb(236, 236, 230);
-}  
+  --color-1: rgb(107, 64, 64);
+  --color-2: rgb(150, 118, 118);
+  --color-3: rgb(236, 236, 230);
+}
 body {
-    color: var(--color-2);
-    font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-2);
+  font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
-    font-size: 68px;
-    text-align: center;
-    padding-top: 60px;
+  font-size: 68px;
+  text-align: center;
+  padding-top: 60px;
 }
-
 
 .header {
-    background-color: var(--color-1);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 100;
+  background-color: var(--color-1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100;
 }
 header h1 {
-    font-size: 60px;
-    color: var(--color-3);
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  font-size: 60px;
+  color: var(--color-3);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .links {
-    text-decoration: none;
-    color: var(--color-3);
-    font-size: 24px;
-    border-top: 20px;
-    text-shadow: 0, 0, 10px rgba(0, 0, 0, 0.5);
-    margin-right: 20px;
-    margin-left: -10px;
+  text-decoration: none;
+  color: var(--color-3);
+  font-size: 24px;
+  border-top: 20px;
+  text-shadow: 0, 0, 10px rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
+  margin-left: -10px;
 }
 .links:hover {
-    color: var(--color-1);
-    background-color: var(--color-3);
-    border-radius:  50%;
+  color: var(--color-1);
+  background-color: var(--color-3);
+  border-radius: 50%;
 }
 header nav {
-    margin: 12px 0;
+  margin: 12px 0;
 }
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: bolder;
+  padding: 10px 15px;
+  font-weight: bolder;
 }
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
 }
 .family {
-    text-align: center;
-    background-color: var(--color-2);
-    width: auto;
-    height: 410px;
-    padding: 5px;  
+  text-align: center;
+  background-color: var(--color-2);
+  width: auto;
+  height: 410px;
+  padding: 5px;
 }
 .family img {
-    max-width: 100%;
-    max-height: 400px;
+  max-width: 100%;
+  max-height: 400px;
 }
 
 /* About me Sectiuon */
 .bio {
-    background-color: var(--color-1);
-    color: var(--color-3);
+  background-color: var(--color-1);
+  color: var(--color-3);
 }
 .bio h3 {
-    font-size: 35px;
+  font-size: 35px;
 }
 .bio p {
-    font-size: 17px;
-
+  font-size: 17px;
 }
 .info {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
 }
 .my-info {
-    margin: 20px;
-    flex: 1;
+  margin: 20px;
+  flex: 1;
 }
 /* My Work section */
 .work {
-    background-color: var(--color-2);
-    color: var(--color-3);
+  background-color: var(--color-2);
+  color: var(--color-3);
 }
 .work h3 {
-    font-size: 35px;
-    color: var(--color-1);
+  font-size: 35px;
+  color: var(--color-1);
 }
 .work h4 {
-    font-weight: normal;
-    margin-top: 20px;
-    font-size: 25px;
-    color: var(--color-1);
+  font-weight: normal;
+  margin-top: 20px;
+  font-size: 25px;
+  color: var(--color-1);
 }
 .projects {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
 }
 .project {
-    margin: 50px;
-    flex: 2 100%;
+  margin: 50px;
+  flex: 2 100%;
 }
 .images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  list-style: none;
+}
+.allergy-free-kitchen a img {
+  height: 600px;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
 }
 .your-portland-itinerary a img {
-    height: 600px;
-    width: 800px;
-    border-radius: 10px;
-    box-shadow:  0 0 30px rgba(0, 0, 0, 0.5);
-    opacity: 0.5;
-}
-.run-buddy a img {
-    border-radius: 10px;
-    box-shadow:  0 0 30px rgba(0, 0, 0, 0.5);
-    opacity: 0.5;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
 }
 .git-hub a img {
-    border-radius: 10px;
-    box-shadow:  0 0 30px rgba(0, 0, 0, 0.5);
-    opacity: 0.5;
-    height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  height: 200px;
+}
+.allergy-free-kitchen a img:hover {
+  opacity: 1;
 }
 .your-portland-itinerary a img:hover {
-    opacity: 1;
-}
-.run-buddy a img:hover {
-    opacity: 1;
+  opacity: 1;
 }
 .git-hub a img:hover {
-    border-radius: 10px;
-    box-shadow:  0 0 30px rgba(0, 0, 0, 0.5);
-    opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  opacity: 1;
 }
 .images a {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .images a:hover {
-    color: var(--Color-3);
-    text-decoration: underline;
+  color: var(--Color-3);
+  text-decoration: underline;
 }
 /* Contact Me Section */
 .contact {
-    background-color: var(--color-1);
-    color: var(--color-3);
+  background-color: var(--color-1);
+  color: var(--color-3);
 }
 .contact h3 {
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: none;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 30px;
+  text-decoration: none;
 }
 .connect a {
-    text-decoration: none;
-    color: var(--color-3);
+  text-decoration: none;
+  color: var(--color-3);
 }
 .connect a:hover {
-    color: var(--color-2);
+  color: var(--color-2);
 }
 .connect {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
 }
 .connected {
-    margin: 50px 10px 10px 10px;
-    flex: 1;
+  margin: 50px 10px 10px 10px;
+  flex: 1;
 }
 /* Footer Section */
 footer {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    background-color: var(--color-1);
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-color: var(--color-1);
 }
 .foot {
-    margin: 10px;
-    flex: 1;
+  margin: 10px;
+  flex: 1;
 }
 .foot a {
-    text-decoration: none; 
-    color: var(--color-3);
+  text-decoration: none;
+  color: var(--color-3);
 }
 .foot a:hover {
-    color: var(--color-1);
-    background-color: var(--color-3);
+  color: var(--color-1);
+  background-color: var(--color-3);
 }
 .resume {
-    height: 1000px;
-    background-color: var(--color-2) ;
+  height: 1000px;
+  background-color: var(--color-2);
 }
 .iframe {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 800px;
-    height: 1000px;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  height: 1000px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .head {
-    text-decoration: none;
-    color: var(--color-3);
-    font-size: 60px;
-    background-color: var(--color-1);
+  text-decoration: none;
+  color: var(--color-3);
+  font-size: 60px;
+  background-color: var(--color-1);
 }
 .center {
-    text-align: center;
-    background-color: var(--color-1);
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 100;
+  text-align: center;
+  background-color: var(--color-1);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100;
 }
-
 
 /* sizing for other devices*/
 @media screen and (max-width: 980px) {
-    .project {
-        margin: 15px;   
-    }
+  .project {
+    margin: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        position: relative;
-        text-align: center;
-    }
-    .work h3 {
-        font-size: 27px;
-    }
-    .work h4 {
-        padding-bottom: 10px;
-        margin-top: -6px;
-   
-    }
-    .work ul li a {
-        font-size: 22px;
-        margin-top: -3px;
-    }
-    .contact h3 {
-        font-size: 20px;
-    }
-    .project {
-        flex: 2 100%
-    }
-    .work ul {
-        justify-content: center;
-    }
-    .my-info {
-        flex: 2 100%;
-    }
-    .your-portland-itinerary a img {
-        height: 400px;
-        width: 600px;
-}
-.iframe {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+  }
+  .work h3 {
+    font-size: 27px;
+  }
+  .work h4 {
+    padding-bottom: 10px;
+    margin-top: -6px;
+  }
+  .work ul li a {
+    font-size: 22px;
+    margin-top: -3px;
+  }
+  .contact h3 {
+    font-size: 20px;
+  }
+  .project {
+    flex: 2 100%;
+  }
+  .work ul {
+    justify-content: center;
+  }
+  .my-info {
+    flex: 2 100%;
+  }
+  .allergy-free-kitchen a img {
+    height: 400px;
+    width: 600px;
+  }
+  .iframe {
     width: 700px;
     height: 800px;
-}
+  }
 }
 @media screen and (max-width: 575px) {
-    h2 {
-        font-size: 50px;
-        padding-top: 60px;
-    }
-    
-    .contact h3 {
-        font-weight: normal;
-        font-size: 15px;
+  h2 {
+    font-size: 50px;
+    padding-top: 60px;
+  }
 
-    }
-    .connected {
-        margin: 30px 5px 10px 5px;
-        flex: 1;
-    }
-    .foot {
-        margin: 10px;
-        flex: 2 100%;
-    }
-    .your-portland-itinerary a img {
-        height: 250px;
-        width: 300px;
-    }
-    .run-buddy a img {
-        height: 150px;
-        width: auto;
-    }
-    .git-hub a img {
-        height: 150px;
-        width: auto;
-    }
-    .iframe {
-        width: 375px;
-        height: 1000px;
-    }
+  .contact h3 {
+    font-weight: normal;
+    font-size: 15px;
+  }
+  .connected {
+    margin: 30px 5px 10px 5px;
+    flex: 1;
+  }
+  .foot {
+    margin: 10px;
+    flex: 2 100%;
+  }
+  .allergy-free-kitchen a img {
+    height: 250px;
+    width: 300px;
+  }
+  .your-portland-itinerary a img {
+    height: 150px;
+    width: auto;
+  }
+  .git-hub a img {
+    height: 150px;
+    width: auto;
+  }
+  .iframe {
+    width: 375px;
+    height: 1000px;
+  }
 }
